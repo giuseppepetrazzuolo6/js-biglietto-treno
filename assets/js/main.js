@@ -23,3 +23,7 @@ TASKS
 // 1. Chiedere input all'utente
 const km = parseFloat(prompt("Quanti chilometri vuoi percorrere?"));
 const eta = parseInt(prompt("Quanti anni hai?"));
+
+// 2. Prezzo base
+const prezzoKm = 0.21;
+let prezzoBase = km * prezzoKm;
