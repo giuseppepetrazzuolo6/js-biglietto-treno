@@ -27,3 +27,15 @@ const eta = parseInt(prompt("Quanti anni hai?"));
 // 2. Prezzo base
 const prezzoKm = 0.21;
 let prezzoBase = km * prezzoKm;
+
+// 3. Calcolo sconto
+let sconto = 0;
+
+if (eta < 18) {
+  sconto = 0.20; // 20%
+} else if (eta > 65) {
+  sconto = 0.40; // 40%
+}
+
+let prezzoScontato = prezzoBase * (1 - sconto);
+
