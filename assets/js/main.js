@@ -39,3 +39,9 @@ if (eta < 18) {
 
 let prezzoScontato = prezzoBase * (1 - sconto);
 
+// 4. Arrotondamento a 2 decimali
+let prezzoFinale = prezzoScontato.toFixed(2);
+
+// 5. Output finale
+console.log(`Il prezzo del tuo biglietto è: €${prezzoFinale}`);
+
