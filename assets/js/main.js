@@ -19,3 +19,7 @@ TASKS
 - applicare sconti
 - formattare e stampare il prezzo finale con due decimali
 */
+
+// 1. Chiedere input all'utente
+const km = parseFloat(prompt("Quanti chilometri vuoi percorrere?"));
+const eta = parseInt(prompt("Quanti anni hai?"));
